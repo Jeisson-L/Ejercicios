@@ -381,6 +381,10 @@ footer section div p{
     margin-top: 20px;
 }
 
+.infoItem div{
+    margin-left: 25px;
+}
+
 .front_color2{
     color: white;
 }
