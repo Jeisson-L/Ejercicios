@@ -80,6 +80,10 @@ a{
     text-decoration: none;
 }
 
+.logo_nav nav{
+    display: none;
+}
+
 .logo_nav ul{
     list-style-image: url('../img/pawprint 4.svg');
     display: flex;
@@ -406,8 +410,11 @@ footer section div p{
     text-align: center;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 644px) {
     .logo_nav nav{
+        display: block;
+    }
+    .logo_nav>img{
         display: none;
     }
   }
