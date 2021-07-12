@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla:wght@400;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family:'Roboto';
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+}
+.mini_header{
+    align-items: center;
+    background-color: #1CD1B0;
+    padding: 0.5%;
+    display: flex;
+}
+.mini_header p{
+    font-size: 0.7rem;
+    padding-left: 2%;
+}
+
+.titulo{
+    align-items: center;
+    background-color: #00669F;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    display: flex;
+    padding: 0.5%;
+}
+
+.titulo img{
+    padding-left: 1%;
+}
+
+h1{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.menu{
+    background-color: #001D2D;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.menu li{
+    padding: 0.5%;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.6rem;
+}
+
+main{
+    margin: 11px auto 11px auto;
+}
+
+main div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+main>a{
+    text-decoration: none;
+}
+
+main>a>p:hover{
+    background-color: #001D2D;
+}
+
+main>a>p{
+    background-color: #00669F;
+    border-radius: 50%;
+    color: white;
+    font-size: 34px;
+    height: 41px;
+    left: 90%;
+    position: sticky;
+    text-align: center;
+    top:52%;
+    width: 41px;
+    z-index: 2;
+}
+
+.like{
+    position: absolute;
+    display: block;
+    top: 15px;
+    left: 21px;
+}
+.Cuadrado1{
+    background-color: #f3f3f3;
+    border-radius: 5% 5% 0% 0%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    position: relative;
+    text-align: center;
+    width: 270px;
+}
+
+
+.fondo-card{
+    border-radius: 5% 5% 0 0;
+    height: 173.7px;
+    width: 270px;
+}
+
+.avatar{
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    width: 120px;
+    left: 75px;
+    top: 110px;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 74px;
+}
+
+section p{
+    font-size: 16px;
+    color: #333333;
+    margin-top: 10px;
+    padding-left: 16px;
+    padding-right: 17px;
+    text-align: left;
+}
+
+section div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 20% 0;
+    width: 100%;
+}
+
+button{
+    bottom: 18.48px;
+    height: 48.52px;
+    width: 128.78px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    border: none;
+}
+
+/* Estilos de la página de adicionar*/
+#adicionar{
+    align-items: center;
+    background-color: #00669F;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    width: 477px;
+}
+
+#adicionar h1{
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+#adicionar p{
+    color: white;
+    font-family: 'Inter';
+    font-size: 0.7rem;
+}
+
+#adicionar>div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 22px;
+    width: 100%;
+}
+
+#adicionar section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:50%;
+}
+
+#adicionar label{
+    color: white;
+    font-family: 'Inter';
+    font-size: 0.7rem;
+    margin: 0% 5%;
+}
+
+#adicionar input, #adicionar select, #adicionar textarea{
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    height: 31px;
+    margin: 5% 5%;
+    width: 90%;
+}
+
+#adicionar textarea{
+    height: 154px;
+    resize: none;
+}
+
+#adicionar input[type="file"]{
+    border:none
+}
+
+#adicionar input[type="file"]::file-selector-button{
+    background-color: #CECECE;
+    border-radius: 5px;
+    border: none;
+}
+
+#adicionar input[type="checkbox"], #adicionar input[type="radio"]{
+    border: 1px solid #C4C4C4;
+    height: 10px;
+    width: 12px;
+    margin: 5px 0%;
+}
+
+.separador{
+    background-color: #CCCCCC;
+    border: 1px solid #CCCCCC;
+    height: 0px;
+    margin: 11px 4%;
+    width: 91%;
+}
+
+#adicionar button{
+    color: black;
+    background-color: #1CD1B0;
+    border-radius: 11.5px;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 44px;
+    margin-bottom: 9px;
+    width: 50%;
+}
+
+#adicionar button:hover{
+    background-color: #001D2D;
+    color: white;
+}
+/*Fin de los estilos de la pagina de adicionar*/
+
+.formulario p{
+    font-family: 'Karla', sans-serif;
+    font-size: 0.6rem;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.formulario form{
+    width: 50%;
+    max-width: 310px;
+}
+
+.formulario input{
+    height: 30px;
+    width: 100%;
+}
+
+.formulario .formTitulo{
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 17px;
+    text-align: left;
+}
+
+.formulario select{
+    height: 30px;
+    width: 100%;
+}
+
+.formulario button{
+    background-color: #1CD1B0;
+    border-radius: 15px;
+    color: black;
+    font-weight: bold;
+    height: 25px;
+    margin-top: 17px;
+    width: 100%;
+}
+
+#registrar{
+    width: 49%;
+}
+
+.formulario .reset{
+    background-color: #888888;
+    color: white;
+    width: 49%;
+}
+
+.formulario div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.formulario textarea{
+    width: 100%;
+}
+
+footer{
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+footer p{
+    color: #FFF9F9;
+    font-size: 0.6rem;
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+footer img{    
+    align-self: center;
+    position: relative;
+    right: 5%;
+    width: 58px;    
+}
+
+.ocultoEnPhones{
+    display: none;
+}
+
+.visibleSoloEnPhones{
+    display: block;
+}
+
+@media (min-width: 460px){
+    .ocultoEnPhones{
+        display: block;
+    }
+
+    .Cuadrado1{
+        display: flex;
+    }
+
+    .visibleSoloEnPhones{
+        display: none;
+    }
+
+}
+
+@media (min-width: 768px){
+    html{
+        font-size: 20px;
+    }
+    main>a>img{
+        left: 95%;
+        width: 82px;
+    }
+}

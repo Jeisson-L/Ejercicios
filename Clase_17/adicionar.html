@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Adicionar - Clase 17</title>
+</head>
+<body>
+    <header>
+        <div class="mini_header">
+            <p>20% de descuento en todos los productos!</p>            
+        </div>
+        <div class="titulo">
+            <img src="img/Tienda-icon.png" alt="Icono de la tienda">
+            <h1>Nombre Tienda</h1>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="register.html">Registrarme</a></li>
+                    <li><a href="login.html">Ingresar</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form action="#" id="adicionar" method="GET">
+        <h1>Añadí tu super!</h1>
+        <p>Agregá tu personaje favorito completando las opciones.</p>
+        <div>
+            <section>
+                <label for="name">*Nombre</label>
+                <input type="text" name="name">
+                <label for="date">Fecha</label>
+                <input type="date" name="date" placeholder="dd/mm/aaaa">
+                <textarea name="description" id="description" placeholder="Descripción"></textarea>
+            </section>
+            <section>
+                <label for="especie">*Especie</label>
+                <select name="especie" id="especie">
+                    <option value="" disabled selected hidden>Especie</option>
+                </select>
+                <label for="avatar">Agregar foto</label>
+                <input type="file" name="avatar" accept=".jpg">
+                <label>Poderes</label>
+                <label for="v">
+                    <input type="checkbox" name="poderes" id="v" value="Volar">
+                    Volar
+                </label>
+                <label for="s">
+                    <input type="checkbox" name="poderes" id="s" value="Superinteligencia">
+                    Superinteligencia
+                </label>
+                <label for="vi">
+                    <input type="checkbox" name="poderes" id="vi" value="Vista de rayo láser">
+                    Vista de rayo láser
+                </label>
+                <label for="b">
+                    <input type="checkbox" name="poderes" id="b" value="Billetera gorda">
+                    Billetera gorda
+                </label>
+                <div class="separador"></div>
+                <label>Tipo de personaje</label>
+                <label for="rh">
+                    <input type="radio" name="tipo" id="rh" value="Héroe / Heroina">
+                    Héroe / Heroina
+                </label>
+                <label for="rv">
+                    <input type="radio" name="tipo" id="rv" value="Villano / Villana">
+                    Villano / Villana
+                </label>
+            </section>
+        </div>
+        <button> Añadir</button>
+    </form>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
